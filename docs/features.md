@@ -1,43 +1,42 @@
-# Funcionalidades de la aplicación
+# StudyMate
 
-## Restricciones técnicas
+**StudyMate** es una aplicación diseñada para ayudar a los estudiantes a organizar su tiempo de estudio de manera efectiva. Ofrece una variedad de funciones para gestionar horarios, tareas, proyectos, recordatorios y recursos educativos.
 
-1. Esta aplicación funcionará en dispositivos Android con sistema operativo versión 8 o superior.
+## Funcionalidades
 
-2. La información usada en la aplicación es de uso gratuito y será obtenida del API
-   de [Listen Notes](https://www.listennotes.com/podcast-api/).
+### 1. **Gestión de Horarios de Estudio**
+- **Crear Horarios Personalizados**: Diseña horarios de estudio adaptados a tus necesidades.
+- **Editar y Ajustar Horarios**: Modifica tus horarios de estudio en función de cambios en tus prioridades.
+- **Vista Semanal/Mensual**: Visualiza y gestiona tus horarios en vistas semanales y mensuales.
+- **Recordatorios de Sesiones**: Configura notificaciones para tus sesiones de estudio programadas.
 
-3. Cualquier información enviada por el usuario será almacenada de forma local en el dispositivo.
+### 2. **Registro de Tareas y Proyectos**
+- **Agregar Tareas y Proyectos**: Introduce nuevas tareas y proyectos con detalles como fechas de entrega y descripciones.
+- **Categorías y Prioridades**: Organiza tareas y proyectos en categorías y establece prioridades.
+- **Estado de Tareas**: Marca tareas como pendientes, en progreso o completadas.
+- **Seguimiento de Progreso**: Monitorea el avance de tus proyectos y tareas.
 
-## Funcionalidades de usuario
+### 3. **Recordatorios y Notificaciones**
+- **Recordatorios de Exámenes**: Configura alertas para fechas importantes como exámenes y entregas.
+- **Notificaciones Personalizadas**: Recibe notificaciones sobre próximos eventos y tareas pendientes.
+- **Configuración de Notificaciones**: Personaliza la frecuencia y el tipo de notificaciones que recibes.
 
-UANCasts le permitirá al usuario consultar e interactuar con Podcasts de distintos tópicos a través
-de una interfaz amigable. El usuario podrá:
+### 4. **Seguimiento del Progreso Académico**
+- **Gráficos de Rendimiento**: Visualiza tu progreso académico a través de gráficos y estadísticas.
+- **Objetivos Académicos**: Establece y sigue tus metas académicas a largo plazo.
 
-1. Ver una lista de los podcasts disponibles: Al ingresar a la aplicación verá una lista de los
-   podcasts disponibles en Listen Notes.
+### 5. **Recursos Educativos**
+- **Biblioteca de Recursos**: Accede a una variedad de materiales educativos como resúmenes, videos y documentos.
+- **Categorías de Recursos**: Clasifica y organiza recursos por materia y tipo de contenido.
+- **Búsqueda de Recursos**: Utiliza la función de búsqueda para encontrar rápidamente los materiales que necesitas.
 
-2. Seleccionar un podcast ver los episodios disponibles para ese podcast: Desde la pantalla inicial
-   podrá seleccionar cualquier podcast y ver la lista de episodios disponibles. El primer episodio
-   se reproducirá de forma automática.
+### 6. **Pantalla de Perfil y Configuración**
+- **Perfil del Usuario**: Administra tu perfil y configuración personal.
+- **Preferencias de Estudio**: Ajusta cómo se muestran los horarios, tareas y recordatorios según tus preferencias.
+- **Configuración de Notificaciones**: Personaliza las alertas y notificaciones que recibes.
 
-3. Ir al sitio web del Podcast (si existe): Si el Podcast tiene un sitio web podrá abrirlo en el
-   navegador por defecto en su celular.
+### 7. **Pantalla de Ingreso/Registro**
+- **Inicio de Sesión**: Ingresa a tu cuenta utilizando tu nombre de usuario y contraseña.
+- **Registro de Usuario Nuevo**: Crea una nueva cuenta con tu información personal y académica.
 
-4. Reproducir episodios de podcast: Desde la lista de episodios podrá reproducir cualquiera de
-   ellos.
 
-5. Adelantar la reproducción de un podcast: Podrá adelantar la reproducción en intervalos de 15
-   segundos.
-
-6. Retrasar la reproducción de un podcast: Podrá regresar la reproducción en intervalos de 15
-   segundos.
-
-7. Buscar podcasts por nombre: Al ir a la ventana de búsqueda podrá navegar buscando el nombre de su
-   podcast de interés.
-
-8. Votar por los podcasts favoritos: En cada Podcast tendrá una opción para votar por el podcast. La
-   votación será personal y estará disponible solo desde el dispositivo.
-
-9. Ver los podcasts favoritos: Podrá ir a la ventana de favoritos donde verá los Podcasts que ha
-   votado como favoritos en orden de calificación.

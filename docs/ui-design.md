@@ -1,29 +1,40 @@
 # Diseño de interfaz de usuario
 
-La interfaz de usuario de la aplicación UANCasts esta inspirada en la interfaz de usuari de
-aplicaicones similares y en el uso de [Material Design](https://material.io/design).
+El diseño completo esta disponible
+en [Moqups](https://app.moqups.com/YpSwOGDSfpwoDn89T5awiQbEG1bsZMXd/view/page/a111675b7)
 
-El diseño completoe esta disponible
-en [Figma](https://www.figma.com/proto/hfzawvdC9umcC1e2z56fxR/PodcastsApp?node-id=1%3A2&scaling=scale-down)
-. Los colores a usar estar[an basados en una combinación de escalas de gris. A continuación se
-presentan las principales pantallas:
+## 1. Sign In
 
-1. Lista de Podcasts
+   Para usar la aplicacion, el usuario deberá registrarse para acceder a todas las funcionalidades.
 
-   Cuando el usuario ingrese a la aplicaicón verá una lista con los podcasts disponibles tomados
-   desde el API.
+   ![Sign In](images/signin.png)
 
-   ![Lista de podcasts](images/PodcastList.png)
+## 2. Login
 
-2. Episodios de un Podcast
+   Para acceder a las funcionalidades el usuario debe iniciar sesión.
 
-   Al seleccionar un Podcats, el usuario verá la lista de episodios de ese podcasts y podrá
-   reproducirlos.
+   ![Login](images/login.png)
 
-   ![Lista de episodios](images/EpisodesPlaying.png)
+## 3. Dashboard
 
-3. Búsqueda podcasts
+   Interfaz grafica para acceder a varias de la funcionalidades.
 
-   Adicionalmente el usuario podrá buscar los Podcasts de su interes usando palabras clave.
+   ![Dashboard](images/dashboard.png)
 
-   ![Búsqueda](images/Search.png)
+## 4. Homeworks
+
+   Interfaz grafica para ver las tareas y proyectos, y a su vez el progreso de estos.
+
+   ![Homeworks](images/homeworks.png)
+
+## 5. Calendar
+
+   Interfaz grafica para ver las tareas y proyectos asignados en el calendario.
+
+   ![Calendar](images/calendar.png)
+
+## 6. Study area
+
+   Interfaz grafica para gestionar un temporizador, horarios de estudio y analisis de los tiempos de estudio.
+
+   ![Study Area](images/study-area.png)
