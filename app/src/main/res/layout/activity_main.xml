@@ -1,24 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Wrap the DrawerLayout with FrameLayout to use the same View type for the same view ID
-across the layout configurations
--->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_container"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
 
-    <androidx.drawerlayout.widget.DrawerLayout
-        android:id="@+id/drawer_layout"
+    <!-- Logo o título -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Study Mate"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Campo de Usuario -->
+    <EditText
+        android:id="@+id/usernameField"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true" >
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="Usuario"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@id/appTitle"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3C2D1" />
 
-        <include
-            android:id="@+id/app_bar_main"
-            layout="@layout/app_bar_main"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+    <!-- Campo de Contraseña -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="Contraseña"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@id/usernameField"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3C2D1" />
 
-    </androidx.drawerlayout.widget.DrawerLayout>
-</FrameLayout>
+    <!-- Botón de Inicio de Sesión -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_below="@id/passwordField"
+        android:text="Iniciar sesión"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D47A1"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:elevation="4dp" />
+
+    <!-- Enlace para Recuperar Contraseña -->
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

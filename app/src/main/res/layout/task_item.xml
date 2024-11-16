@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="12dp"
+    android:padding="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:layout_marginTop="8dp"
+    android:backgroundTint="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título de la tarea -->
+        <TextView
+            android:id="@+id/taskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarea 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:paddingBottom="6dp"
+            android:textAllCaps="true"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <!-- Fecha límite -->
+        <TextView
+            android:id="@+id/taskDueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha límite: 2024-11-30"
+            android:textSize="14sp"
+            android:textColor="#616161"
+            android:paddingBottom="6dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <!-- Descripción de la tarea -->
+        <TextView
+            android:id="@+id/taskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción: Estudiar para el examen de matemáticas."
+            android:textSize="14sp"
+            android:textColor="#424242"
+            android:paddingBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"/>
+
+        <!-- Importancia -->
+        <TextView
+            android:id="@+id/taskImportance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importancia: Alta"
+            android:textSize="14sp"
+            android:textColor="#D32F2F"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="8dp"/>
+
+        <!-- Materia -->
+        <TextView
+            android:id="@+id/taskSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Materia: Matemáticas"
+            android:textSize="14sp"
+            android:textColor="#1976D2"
+            android:paddingTop="6dp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Barra inferior para resaltar importancia -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#BDBDBD"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
